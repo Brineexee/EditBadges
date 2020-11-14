@@ -2,7 +2,7 @@
  * @name EditBadges
  * @authorId 421399233606713376
  * @invite dcn7J2X
- * @source 
+ * @source https://github.com/Brineexee/BR_BDPlugins/blob/main/EditBadges.plugin.js
  */
 
 
