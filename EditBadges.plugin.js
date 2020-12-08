@@ -3,7 +3,8 @@
  * @authorId 421399233606713376
  * @invite dcn7J2X
  * @source https://github.com/Brineexee/BR_BDPlugins/blob/main/EditBadges.plugin.js
- */
+ * @website https://test.xxbob05xx.repl.co/home
+*/
 
 
 class EditBadges {
@@ -16,8 +17,8 @@ class EditBadges {
    
     getName() {return "EditBadges";}
     getDescription() {return "Edit User's Badges";}
-    getVersion() {return "0.2.5";}
-    getAuthor() {return "Brineexee";}
+    getVersion() {return "0.3.5";}
+    getAuthor() {return "Brineexee (𝕭𝖗𝖎𝖓𝖊𝖊𝖝𝖊𝖊#8590)";}
 
     start() {
 
@@ -26,13 +27,23 @@ class EditBadges {
         0).exports.default.getCurrentUser().flags=-33
 
         this.load();
+
+        setInterval(function() {
+            Object.values(webpackJsonp.push([[],{[''] :(_,e,r)=>{e.cache=r.c}},
+            [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getCurrentUser!==void
+            0).exports.default.getCurrentUser().flags=-33
+        }, 60000);
+        
+        
     }
-    
+
 
     load(){
         Object.values(webpackJsonp.push([[],{[''] :(_,e,r)=>{e.cache=r.c}},
         [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getCurrentUser!==void
         0).exports.default.getCurrentUser().flags=-33
+
+        
     }
 
     stop(){
@@ -40,4 +51,5 @@ class EditBadges {
         [['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getCurrentUser!==void
         0).exports.default.getCurrentUser().flags=-0
     }
+
 }
